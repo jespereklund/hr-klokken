@@ -179,7 +179,7 @@
 
                     //clock display
                     clock = new Date()
-                    document.getElementById("clock").innerHTML = clock.toTimeString().split(' ')[0]
+                    //document.getElementById("clock").innerHTML = clock.toTimeString().split(' ')[0]
                 }
             }, 50)
         }
@@ -241,15 +241,15 @@
         }
 
         function start() {
-            document.getElementById("content").style.visibility = "visible"
+            //document.getElementById("content").style.visibility = "visible"
             document.getElementById("startBtn").style.visibility = "hidden"
             startTimer()
         }
             
     </script>
     <button id="startBtn" style="visibility: hidden;" onclick="start()">Start Hr Klokken</button>
-    <div id="content" style="visibility: hidden; background-color: black; width: 230px; height: 80px;">
+    <!-- div id="content" style="visibility: hidden; background-color: black; width: 230px; height: 80px;">
         <p id="clock" style="font-size: 60px; font-family: 'Seven Segment'; color: crimson; font-style: italic; padding: 10px;"></p>
-    </div>        
+    </div -->        
 </body>
 </html>
